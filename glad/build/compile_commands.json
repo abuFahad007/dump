@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/abu/graphics/glad/build",
+  "command": "/usr/bin/clang++ -g -o CMakeFiles/my_opengl_project.dir/src/main.cpp.o -c /home/abu/graphics/glad/src/main.cpp",
+  "file": "/home/abu/graphics/glad/src/main.cpp"
+},
+{
+  "directory": "/home/abu/graphics/glad/build",
+  "command": "/usr/bin/clang -g -o CMakeFiles/my_opengl_project.dir/src/glad.c.o -c /home/abu/graphics/glad/src/glad.c",
+  "file": "/home/abu/graphics/glad/src/glad.c"
+},
+{
+  "directory": "/home/abu/graphics/glad/build",
+  "command": "/usr/bin/clang++ -g -o CMakeFiles/my_opengl_project.dir/src/stb_image.cpp.o -c /home/abu/graphics/glad/src/stb_image.cpp",
+  "file": "/home/abu/graphics/glad/src/stb_image.cpp"
+}
+]
