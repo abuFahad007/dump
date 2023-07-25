@@ -1,0 +1,2 @@
+#!/bin/bash
+emcc -o snake_c.html main.c -Wall -std=c99 -D_DEFAULT_SOURCE -Wno-missing-braces -Wunused-result -Os -I. -I /home/abu/raylib/src -I /home/abu/raylib/src/external -L. -L /home/abu/raylib/src -s USE_GLFW=3 -s ASYNCIFY -s TOTAL_MEMORY=67108864 -s FORCE_FILESYSTEM=1 --shell-file /home/abu/raylib/src/shell.html /home/abu/raylib/src/web/libraylib.a -DPLATFORM_WEB -s 'EXPORTED_FUNCTIONS=["_free","_malloc","_main"]'
